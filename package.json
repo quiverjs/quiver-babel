@@ -6,16 +6,16 @@
   },
   "name": "quiver-babel",
   "description": "Babel dependencies for transpiling Quiver packages",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/quiverjs/quiver-babel",
   "repository": {
     "url": "git@github.com:quiverjs/quiver-babel.git"
   },
   "dependencies": {
-    "babel-plugin-transform-async-to-generator": "^6.8.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
-    "babel-plugin-transform-function-bind": "^6.8.0",
-    "babel-plugin-transform-react-jsx": "^6.8.0"
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
   },
   "bugs": {
     "url": "https://github.com/quiverjs/quiver-babel/issues",
@@ -24,6 +24,6 @@
   "license": "ISC",
   "main": "./node-preset.js",
   "engines": {
-    "node": "^6.3.1"
+    "node": ">=6.0.0"
   }
 }
